@@ -1,50 +1,81 @@
 # 📚 Java Array Programs
 
-This repository contains simple and beginner-friendly Java programs that demonstrate how to **declare**, **initialize**, and **display** arrays using multiple approaches. 
+A collection of Java programs to understand and practice array operations — including 1D, 2D, and 3D arrays.
 
 ---
 
-## 📂 Included Java Files
+## 📁 File Overview
 
-### ✅ `ArraysDisplay.java`
-This program demonstrates multiple ways to display elements of a float array:
-
-- **Naive method:** Access each index manually.
-- **For loop:** Iterate through the array from start to end.
-- **Reverse for loop:** Display array elements from last to first.
-- **Enhanced for-each loop:** Clean and easy method to access each element.
-
----
-
-### ✅ `ArraysDeclaration.java`
-This program demonstrates various ways to declare and initialize integer arrays:
-
-- **Method 1:** Declaration and initialization in two steps using `new`.
-- **Method 2:** Declaration with direct element assignment using index.
-- **Method 3:** Initialization using array literals (short-hand).
-
-Each method also prints selected elements to verify initialization.
+### ✅ ArraysDisplay.java
+Demonstrates different ways to display a float array:
+- Manual indexing
+- Forward iteration
+- Reverse iteration
+- Enhanced for-each loop
 
 ---
 
-### ✅ `MultidimensionalArray.java`
-This program uses a **2D array** to represent a structure like apartment flats across two floors:
-
-- Declares a `2 x 3` integer array.
-- Assigns flat numbers manually.
-- Uses nested `for` loops to iterate and print the array structure row-wise.
-
-It serves as a clear example of how 2D arrays can be used in real-world modeling.
+### ✅ ArraysDeclaration.java
+Covers multiple methods for declaring and initializing integer arrays:
+- Using the `new` keyword
+- Index-based assignment
+- Array literal shorthand
 
 ---
 
-### ✅ `Array3D.java`
-This program uses a **3D array** to simulate a more complex structure such as an apartment building with:
+### ✅ MultidimensionalArray.java
+Represents a 2D array (like apartment floors and rooms):
+- Declares a 2x3 array
+- Populates with sample values
+- Prints row-wise using nested loops
 
-- **2 floors**
-- **3 rows per floor**
-- **2 flats per row**
+---
 
-The array is declared as `int[][][] flats = new int[2][3][2]`, manually filled with flat numbers, and printed using three nested loops. This helps visualize and understand how 3D arrays work in a real-world scenario.
+### ✅ Array3D.java
+Simulates a 3D array structure:
+- Models 2 floors, 3 rows per floor, 2 flats per row
+- Uses nested loops to print all elements
+
+---
+
+## 🆕 More Programs (From `prac7.java`)
+
+### ➕ SumOfArray.java
+Calculates the sum of all elements in a 1D array using a loop.
+
+---
+
+### 🔍 SearchInArray.java
+Checks if a specific number is present in the array using linear search.
+
+---
+
+### ➕ MatrixAddition.java
+Performs element-wise addition of two 2D arrays and stores 
+the result in a third matrix.
+
+---
+
+### 🔄 ReverseArrayWithNew.java
+Reverses a 1D array by creating a new array and copying 
+elements in reverse order.
+
+---
+
+### 🔄 ReverseArrayInPlace.java
+Reverses the array **in-place**, 
+without using any extra array.
+
+---
+
+### 📈 FindMaximumInArray.java
+Finds the **maximum** value in a 1D array 
+by comparing each element.
+
+---
+
+### 📉 FindMinimumInArray.java
+Finds the **minimum** value in a 1D array 
+using basic loop traversal.
 
 ---
